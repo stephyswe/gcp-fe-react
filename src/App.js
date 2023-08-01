@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React v1.1 - new dockerfile Work 1.5 -{" "}
+          {process.env.REACT_APP_TEST_VALUE}
         </a>
       </header>
     </div>
